@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task 13 - College Admission Form</title>
+</head>
+<body>
+
+  <h1>College Admission Form</h1>
+  <p>Please fill in all the details carefully.</p>
+  <hr>
+
+  <!-- The form tag wraps all input elements -->
+  <!-- action="#" means the form doesn't go anywhere (just for practice) -->
+  <form action="#" method="post">
+
+    <h3>Personal Details</h3>
+
+    <!-- Text box for name -->
+    <label>Full Name: </label>
+    <input type="text" name="fullname" placeholder="Enter your full name" size="30">
+    <br><br>
+
+    <!-- Text box for date of birth -->
+    <label>Date of Birth: </label>
+    <input type="date" name="dob">
+    <br><br>
+
+    <!-- Radio buttons - only one can be selected at a time -->
+    <label>Gender: </label>
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female
+    <input type="radio" name="gender" value="other"> Other
+    <br><br>
+
+    <!-- Text box for address -->
+    <label>Address: </label>
+    <textarea name="address" rows="3" cols="35" placeholder="Enter your address"></textarea>
+    <br><br>
+
+    <!-- Text box for phone -->
+    <label>Phone Number: </label>
+    <input type="text" name="phone" placeholder="Enter 10-digit number" size="20">
+    <br><br>
+
+    <!-- Text box for email -->
+    <label>Email: </label>
+    <input type="email" name="email" placeholder="example@email.com" size="30">
+    <br><br>
+
+    <hr>
+    <h3>Academic Details</h3>
+
+    <!-- Dropdown list (select box) -->
+    <label>Course Applied For: </label>
+    <select name="course">
+      <option value="">-- Select Course --</option>
+      <option value="btech">B.Tech</option>
+      <option value="bsc">B.Sc</option>
+      <option value="bca">BCA</option>
+      <option value="mca">MCA</option>
+      <option value="mtech">M.Tech</option>
+    </select>
+    <br><br>
+
+    <!-- Dropdown for year of passing -->
+    <label>Year of Passing (12th): </label>
+    <select name="passyear">
+      <option value="2024">2024</option>
+      <option value="2023">2023</option>
+      <option value="2022">2022</option>
+      <option value="2021">2021</option>
+    </select>
+    <br><br>
+
+    <!-- Text box for percentage -->
+    <label>12th Percentage: </label>
+    <input type="text" name="percentage" placeholder="e.g. 85.5" size="10">
+    <br><br>
+
+    <hr>
+    <h3>Select Subjects of Interest</h3>
+
+    <!-- Checkboxes - multiple can be selected at the same time -->
+    <input type="checkbox" name="sub" value="maths"> Mathematics
+    <input type="checkbox" name="sub" value="physics"> Physics
+    <input type="checkbox" name="sub" value="cs"> Computer Science
+    <input type="checkbox" name="sub" value="english"> English
+    <br><br>
+
+    <hr>
+
+    <!-- Submit and Reset buttons -->
+    <input type="submit" value="Submit Application">
+    &nbsp;
+    <input type="reset" value="Clear Form">
+
+  </form>
+
+</body>
+</html>
