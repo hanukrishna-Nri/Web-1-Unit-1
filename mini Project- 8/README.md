@@ -8,6 +8,7 @@ MediCare Plus is a beginner-friendly Healthcare Information System developed usi
 The primary objective of this project is to demonstrate the use of various HTML elements such as tables, forms, navigation links, lists, and storage concepts while creating a realistic healthcare portal.
 
 
+
 OBJECTIVES
 ----------
 1. Design a structured healthcare information website using HTML.
